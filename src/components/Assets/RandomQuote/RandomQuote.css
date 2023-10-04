@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+    background: #625ac4;
+    width: 800px;
+    border-radius: 15px;
+}
+
+.quote{
+    padding: 60px 110px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.line{
+    width: 680px;
+    height: 1.8px;
+    background: white;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.author{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Icons{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    cursor: pointer;
+}
+
+#twitter{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 27px;
+    border: 1px solid #ffffff88;
+    border-radius: 10ch;
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+    transition: all 0.5s;
+}
+#whatsapp{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 27px;
+    border: 1px solid #ffffff88;
+    border-radius: 10ch;
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+    transition: all 0.5s;
+}
+
+#reload{
+    font-size: 27px;
+    border: 2px solid #ffffff88;
+    border-radius: 10ch;
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+    transition: all 0.5s;
+}
+
+#reload {
+    color: white;
+    border: 1px solid #ecedee;
+  }
+  
+  #twitter {
+    color: white;
+    border: 1px solid #1c99e6;
+  }
+  #twitter:hover {
+    background-color: #1c99e6;
+    color: #fff;
+  }
+  
+  #reload:hover {
+    color: black;
+    border: 1px solid #0e0207;
+  }
+  #whatsapp {
+    color: #2fe664;
+    border: 1px solid #2fe664;
+  }
+  #whatsapp:hover {
+    background-color: #2fe664;
+    color: #fff;
+  }
+  
+ 
