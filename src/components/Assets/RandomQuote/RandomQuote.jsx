@@ -28,7 +28,7 @@ const RandomQuote = () =>{
     }
 
     const whatsapp = () =>{
-        window.open(`https://web.whatsapp.com/send?phone=${quote.text} - {quote.author.split(',')[0]}`);
+        window.open(`https://web.whatsapp.com/send?phone=${quote.text} - ${quote.author.split(',')[0]}`);
     }
     loadQuotes();
 
@@ -43,7 +43,7 @@ const RandomQuote = () =>{
                 <div className="line"></div>
 
                 <div className="bottom">
-                    <div className="author">-{quote.author.split(',')[0]}</div>
+                    <div className="author">- {quote.author.split(',')[0]}</div>
 
                     <div className="Icons">
                         <AiOutlineReload id="reload" onClick={()=>{random()}}/>
